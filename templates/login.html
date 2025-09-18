@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<form method="POST">
+  <input type="text" name="email" placeholder="Correo" required>
+  <input type="password" name="password" placeholder="Contraseña" required>
+  <button type="submit">Ingresar</button>
+</form>
+{% endblock %}
